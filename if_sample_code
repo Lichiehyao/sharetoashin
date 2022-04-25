@@ -14,7 +14,7 @@ end;
 if V > TimeDiff(currenttime,time,"S")*25 then begin
 //currenttime是電腦當前時間 , time應該是目前K棒代表的時間 , "S">>時間單位秒
 if L < XLow then begin retmsg ="破昨低觸空"; ret=1; end;
-// L是low, 內建的, 當日低點
+// L是low, XQ內建的, 當日低點
 if H > xHigh then begin retmsg ="過昨高觸多"; ret=1; end;
 // H是當日高點 大於 xHigh 顯示訊息 "過昨高觸多"
 
